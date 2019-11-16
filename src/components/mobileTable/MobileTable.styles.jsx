@@ -31,7 +31,7 @@ export const TableInnerRow = styled.tr`
 export const TableInnerData = styled.td`
   padding-left: 24px;
   cursor: pointer;
-  padding: 0px 48px 0px 0px;
+  padding: 14px 48px 14px 0px;
   border-top: 1px solid rgb(236, 239, 241);
   &:nth-child(1) {
     padding-left: 24px;
@@ -79,6 +79,7 @@ export const TableInnerDataRightContentHeader = styled.h4`
   color: rgb(5, 15, 25);
   font-size: 18px;
   font-weight: 400;
+  margin: 0;
 `;
 
 export const TableInnerDataRightContentSubHeader = styled.h4`
@@ -86,4 +87,5 @@ export const TableInnerDataRightContentSubHeader = styled.h4`
   margin-right: 0px;
   color: rgb(5, 177, 105);
   text-align: right;
+  margin: 0;
 `;
