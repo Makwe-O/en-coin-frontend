@@ -6,6 +6,7 @@ import TrustedPlatform from '../../components/trustedPlatform/TrustedPlatform';
 import Banner from '../../components/banner/Banner';
 import GetStarted from '../../components/getStarted/GetStarted';
 import EarnCryptoBanner from '../../components/earnCryptoBanner/EarnCryptoBanner';
+import Footer from '../../components/footer/Footer';
 const LandingPage = () => {
   return (
     <>
@@ -16,6 +17,7 @@ const LandingPage = () => {
       <Banner />
       <GetStarted />
       <EarnCryptoBanner />
+      <Footer />
     </>
   );
 };
