@@ -4,6 +4,7 @@ import EarnCrypto from '../../components/earnCrypto/EarnCrypto';
 import CreatePorfolio from '../../components/createPortfolio/CreatePorfolio';
 import TrustedPlatform from '../../components/trustedPlatform/TrustedPlatform';
 import Banner from '../../components/banner/Banner';
+import GetStarted from '../../components/getStarted/GetStarted';
 const LandingPage = () => {
   return (
     <>
@@ -12,6 +13,7 @@ const LandingPage = () => {
       <CreatePorfolio />
       <TrustedPlatform />
       <Banner />
+      <GetStarted />
     </>
   );
 };
