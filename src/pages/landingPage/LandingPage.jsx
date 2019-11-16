@@ -1,4 +1,5 @@
 import React from 'react';
+import Nav from '../../components/nav/Nav';
 import BuyCrypto from '../../components/buyCrypto/BuyCrypto';
 import EarnCrypto from '../../components/earnCrypto/EarnCrypto';
 import CreatePorfolio from '../../components/createPortfolio/CreatePorfolio';
@@ -10,6 +11,7 @@ import Footer from '../../components/footer/Footer';
 const LandingPage = () => {
   return (
     <>
+      <Nav />
       <BuyCrypto />
       <EarnCrypto />
       <CreatePorfolio />
