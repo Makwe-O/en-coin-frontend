@@ -23,25 +23,27 @@ const Nav = () => {
           <InnerLogo>
             <Icon
               source={
-                'https://res.cloudinary.com/dnavbc7ny/image/upload/v1573903803/logo_stksic.svg'
+                'https://res.cloudinary.com/dnavbc7ny/image/upload/v1573919105/c_mhcgxz.png'
               }
+              width={100}
             />
+            <InnerNav>
+              <InnerNavItem>
+                <InnerNavItemLink href='#'>Prices</InnerNavItemLink>
+              </InnerNavItem>
+              <InnerNavItem>
+                <InnerNavItemLink href='#'>Products</InnerNavItemLink>
+              </InnerNavItem>
+              <InnerNavItem>
+                <InnerNavItemLink href='#'>Company</InnerNavItemLink>
+              </InnerNavItem>
+              <InnerNavItemLast>
+                <InnerNavItemLink href='#'>Earn Crypto</InnerNavItemLink>
+                <InnerNavItemButton href='#'>up to $130</InnerNavItemButton>
+              </InnerNavItemLast>
+            </InnerNav>
           </InnerLogo>
-          <InnerNav>
-            <InnerNavItem>
-              <InnerNavItemLink href='#'>Prices</InnerNavItemLink>
-            </InnerNavItem>
-            <InnerNavItem>
-              <InnerNavItemLink href='#'>Products</InnerNavItemLink>
-            </InnerNavItem>
-            <InnerNavItem>
-              <InnerNavItemLink href='#'>Company</InnerNavItemLink>
-            </InnerNavItem>
-            <InnerNavItemLast>
-              <InnerNavItemLink href='#'>Earn Crypto</InnerNavItemLink>
-              <InnerNavItemButton href='#'>up to $130</InnerNavItemButton>
-            </InnerNavItemLast>
-          </InnerNav>
+
           <InnerNavItemCTAContainer>
             <InnerNavItemCTAContainerContent>
               <InnerNavItemCTALink href='#'>Sign in</InnerNavItemCTALink>

@@ -17,11 +17,13 @@ export const NavContainerInner = styled.div`
   display: flex;
   flex-direction: row;
   flex: 1 1 auto;
+  justify-content: space-between;
   padding: 1em 0;
 `;
 
 export const InnerLogo = styled.div`
   display: flex;
+
   justify-content: flex-start;
   flex-direction: row;
   align-items: center;
@@ -30,6 +32,7 @@ export const InnerLogo = styled.div`
 export const InnerNav = styled.nav`
   display: flex;
   align-items: center;
+  margin-left: 16px;
   flex-wrap: wrap;
   justify-content: space-evenly;
   flex-grow: 1;
@@ -77,7 +80,6 @@ export const InnerNavItemLink = styled.a`
 export const InnerNavItemCTAContainer = styled.div`
   display: flex;
   flex-direction: row;
-  margin-left: auto;
 `;
 
 export const InnerNavItemCTAContainerContent = styled.div`

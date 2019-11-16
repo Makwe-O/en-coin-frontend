@@ -31,7 +31,7 @@ export const TableInnerRow = styled.tr`
 export const TableInnerData = styled.td`
   padding-left: 24px;
   cursor: pointer;
-  padding: 14px 48px 14px 0px;
+  padding: 0px 48px 0px 0px;
   border-top: 1px solid rgb(236, 239, 241);
   &:nth-child(1) {
     padding-left: 24px;
