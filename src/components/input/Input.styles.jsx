@@ -10,4 +10,7 @@ export const InputBox = styled.input`
   padding: 13px 16px 15px;
   border-radius: 4px;
   border: 0;
+  @media screen and (max-width: 550px) {
+    margin-right: 0px;
+  }
 `;

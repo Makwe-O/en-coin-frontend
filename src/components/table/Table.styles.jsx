@@ -8,6 +8,9 @@ export const TableInnerContainer = styled.table`
   padding: 0px;
   background: rgb(255, 255, 255);
   border-spacing: 0px;
+  @media screen and (max-width: 1024px) {
+    display: none;
+  }
 `;
 
 export const TableInnerHead = styled.thead``;
@@ -64,6 +67,12 @@ export const TableInnerDataNameContainer = styled.div`
 export const TableInnerDataNameIcon = styled.div`
   display: flex;
   margin-right: 15px;
+`;
+
+export const TableInnerDataRightContent = styled.div`
+  display: flex;
+  align-items: flex-end;
+  flex-direction: column;
 `;
 
 export const TableInnerDataNameText = styled.span`

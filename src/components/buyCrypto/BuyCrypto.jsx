@@ -2,6 +2,7 @@ import React from 'react';
 import Heading from '../heading/Heading';
 import Form from '../form/Form';
 import Table from '../table/Table';
+import MobileTable from '../mobileTable/MobileTable';
 import {
   BuyCryptoContainer,
   BuyCryptoBackground,
@@ -34,6 +35,7 @@ const BuyCryptoSection = () => {
         <TableInnerOffset></TableInnerOffset>
         <TableInner>
           <Table />
+          <MobileTable />
         </TableInner>
       </TableContainer>
     </>

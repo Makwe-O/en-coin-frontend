@@ -34,6 +34,9 @@ export const InnerNav = styled.nav`
   justify-content: space-evenly;
   flex-grow: 1;
   max-width: 560px;
+  @media screen and (max-width: 768px) {
+    display: none;
+  }
 `;
 
 export const InnerNavItem = styled.div`

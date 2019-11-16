@@ -20,6 +20,9 @@ export const TrustedPlatformContainerInner = styled.div`
 export const TrustedPlatformContainerInnerContent = styled.div`
   display: flex;
   margin-top: 100px;
+  @media screen and (max-width: 560px) {
+    flex-direction: column;
+  }
 `;
 
 export const InnerContentColumn = styled.div`

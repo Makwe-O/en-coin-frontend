@@ -10,6 +10,9 @@ export const EarnCryptoBannerContainer = styled.div`
   width: 100%;
   flex: 1 0 auto;
   overflow: hidden;
+  @media screen and (max-width: 768px) {
+    flex-direction: column-reverse;
+  }
 `;
 
 export const EarnCryptoBannerLeftColumn = styled.div`
@@ -25,6 +28,9 @@ export const EarnCryptoBannerRightColumn = styled.div`
   flex-direction: row;
   width: 100%;
   flex: 1 1 50%;
+  @media screen and (max-width: 560px) {
+    display: none;
+  }
 `;
 export const LeftColumnContainer = styled.div`
   display: flex;

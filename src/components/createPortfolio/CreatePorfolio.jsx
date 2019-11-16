@@ -109,11 +109,18 @@ const CreatePorfolio = () => {
           </CreatePorfolioContainerInnerSectionLeft>
           <CreatePorfolioContainerInnerSectionRight>
             <picture>
+              <source
+                srcset='https://assets.coinbase.com/assets/coinbase-app-mobile.ce6b3771820067349ca07f6debc35f2d.webp'
+                type='image/webp'
+              />
+              <source
+                srcset='https://assets.coinbase.com/assets/coinbase-app-mobile.5c5291e641042e1765d724a4c2d1da74.jpg'
+                type='image/jpeg'
+              />
               <Icon
                 source={
                   'https://assets.coinbase.com/assets/coinbase-app.51b8f3dbe406092d16845f3e74870061.jpg'
                 }
-                width={700}
               />
             </picture>
           </CreatePorfolioContainerInnerSectionRight>

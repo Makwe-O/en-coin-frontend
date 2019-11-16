@@ -12,7 +12,8 @@ import {
   InnerContainerLeftSectionText,
   InnerContainerLeftSectionSubText,
   InnerContainerRightSection,
-  InnerContainerRightSectionText
+  InnerContainerRightSectionText,
+  EarnCryptoInnerLeftInnerButton
 } from './EarnCrypto.styles';
 import Heading from '../heading/Heading';
 import Button from '../button/Button';
@@ -34,7 +35,9 @@ const EarnCrypto = () => {
               titleSize={'large'}
               subtitleSize={'small'}
             />
-            <Button theme={'small--blue'}>Start earning</Button>
+            <EarnCryptoInnerLeftInnerButton>
+              <Button theme={'small--blue'}>Start earning</Button>
+            </EarnCryptoInnerLeftInnerButton>
           </EarnCryptoInnerLeftInner>
         </EarnCryptoInnerLeft>
         <EarnCryptoInnerRight>

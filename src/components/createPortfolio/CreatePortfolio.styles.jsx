@@ -24,6 +24,11 @@ export const CreatePorfolioContainerInnerSection = styled.div`
   width: 100%;
   justify-content: space-between;
   margin-top: 60px;
+  @media screen and (max-width: 1024px) {
+    flex-direction: column-reverse;
+    align-items: center;
+    margin-top: 30px;
+  }
 `;
 
 export const CreatePorfolioContainerInnerSectionLeft = styled.div`
@@ -68,4 +73,7 @@ export const InnerSectionLeftContentSubHeader = styled.p`
 
 export const CreatePorfolioContainerInnerSectionRight = styled.div`
   max-width: 700px;
+  @media screen and (max-width: 1024px) {
+    display: none;
+  }
 `;

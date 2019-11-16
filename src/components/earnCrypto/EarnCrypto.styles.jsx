@@ -18,6 +18,9 @@ export const EarnCryptoInner = styled.div`
   height: auto;
   width: 100%;
   flex: 1 0 auto;
+  @media screen and (max-width: 1024px) {
+    flex-direction: column;
+  }
 `;
 
 export const EarnCryptoInnerLeft = styled.div`
@@ -26,6 +29,17 @@ export const EarnCryptoInnerLeft = styled.div`
   flex-direction: row;
   width: 100%;
   flex: 1 1 50%;
+  @media screen and (max-width: 1024px) {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+  }
+`;
+
+export const EarnCryptoInnerLeftInnerButton = styled.div`
+  @media screen and (max-width: 1024px) {
+    text-align: center;
+  }
 `;
 
 export const EarnCryptoInnerRight = styled.div`
@@ -51,6 +65,9 @@ export const EarnCryptoInnerRightInner = styled.div`
   flex-direction: column;
   max-width: 500px;
   flex-grow: 1;
+  @media screen and (max-width: 1024px) {
+    max-width: 90%;
+  }
 `;
 
 export const EarnCryptoInnerRightInnerContainer = styled.div`

@@ -14,6 +14,9 @@ export const FooterContainerInner = styled.div`
   display: flex;
   flex-direction: row;
   width: 100%;
+  @media screen and (max-width: 560px) {
+    flex-direction: column;
+  }
 `;
 
 export const FooterContainerInnerColumn = styled.div`

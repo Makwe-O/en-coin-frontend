@@ -19,6 +19,9 @@ export const BannerContainerInner = styled.div`
   color: rgb(255, 255, 255);
   flex: 1 1 auto;
   margin: 40px 0px;
+  @media screen and (max-width: 560px) {
+    flex-direction: column;
+  }
 `;
 export const BannerContainerInnerColumn = styled.div`
   text-align: center;

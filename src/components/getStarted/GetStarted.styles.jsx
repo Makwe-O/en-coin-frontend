@@ -23,6 +23,9 @@ export const GetStartedInnerContent = styled.div`
   display: flex;
   width: 80%;
   margin-top: 60px;
+  @media screen and (max-width: 560px) {
+    flex-direction: column;
+  }
 `;
 
 export const InnerContentColumn = styled.div`
