@@ -32,7 +32,7 @@ export const InnerLogo = styled.div`
 export const InnerNav = styled.nav`
   display: flex;
   align-items: center;
-  margin-left: 16px;
+  margin-left: 50px;
   flex-wrap: wrap;
   justify-content: space-evenly;
   flex-grow: 1;
